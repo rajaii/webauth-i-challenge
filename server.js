@@ -27,6 +27,11 @@ const sessionOptions = {
         clearInterval: 1000 * 60 * 60
     })
 }
+//import jwt and jwt.sign a cookie in the session options
+//implement a simple react app with a protected route that displays users from this db, 
+//learn how to implement protected route with cookies
+//learn how to pull data ie. uID, etc needed for maniped from cookie
+//learn anything else to get away from token auth on maniped
 
 const server = express();
 
